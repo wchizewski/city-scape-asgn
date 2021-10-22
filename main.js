@@ -31,3 +31,14 @@ ctx.fillRect(150, 100, 150, 550);
 ctx.fillRect(170, 40, 110, 60);
 // Small Top
 ctx.fillRect(190, 20, 70, 20);
+
+// DRAW RIGHT BUILDING WINDOWS
+ctx.fillStyle = "white"
+ctx.fillRect(171, 115, 14, 500)
+ctx.fillRect(196, 115, 14, 500)
+ctx.fillRect(221, 115, 14, 500)
+ctx.fillRect(246, 115, 14, 500)
+ctx.fillRect(271, 115, 14, 500)
+
+// DRAW WINDOWS ON THE BOTTOM OF LEFT BUILDING
+ctx.fillRect(20, 370, 110, 20)
