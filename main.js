@@ -34,11 +34,21 @@ ctx.fillRect(190, 20, 70, 20);
 
 // DRAW RIGHT BUILDING WINDOWS
 ctx.fillStyle = "white"
-ctx.fillRect(171, 115, 14, 500)
-ctx.fillRect(196, 115, 14, 500)
-ctx.fillRect(221, 115, 14, 500)
-ctx.fillRect(246, 115, 14, 500)
-ctx.fillRect(271, 115, 14, 500)
+for (let x = 171; x <= 271; x += 25) {
+    ctx.fillRect(x, 115, 14, 500)
+   
+}
 
 // DRAW WINDOWS ON THE BOTTOM OF LEFT BUILDING
-ctx.fillRect(20, 370, 110, 20)
+for (let y = 370; y <= 595; y += 45) {
+    ctx.fillRect(20, y, 110, 20)
+    
+}
+
+//  DRAW WINDOWS ON THE TOP OF THE LEFT BUILDING
+
+for (let y = 200; y <= 325; y += 25) {
+    for (let x = 40; x <= 100; x += 20) {
+        ctx.fillRect(x, y, 12, 12)
+    } 
+}
